@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4059,7 +4059,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="195.7578" y="6.1214" size="1.9304" layer="101" font="vector" align="center">Amir Tabbakh</text>
-<text x="22.86" y="193.04" size="3.81" layer="94">VDD=3v3</text>
+<text x="22.86" y="193.04" size="1.778" layer="94">VDD=3v3</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="224.79" y="113.03" smashed="yes">
@@ -13048,7 +13048,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="194.4878" y="11.2014" size="1.9304" layer="101" font="vector" align="center">RS232 Serial Transceiver</text>
 <text x="194.4878" y="6.1214" size="1.9304" layer="101" font="vector" align="center">Amir Tabbakh</text>
-<text x="35.56" y="187.96" size="3.81" layer="94">VDD=3v3</text>
+<text x="35.56" y="187.96" size="1.778" layer="94">VDD=3v3</text>
 </plain>
 <instances>
 <instance part="C11" gate="G$1" x="50.8" y="114.3" smashed="yes" rot="MR0">
