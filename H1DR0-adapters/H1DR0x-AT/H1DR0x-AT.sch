@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -306,7 +306,7 @@ Source: http://eshop.phoenixcontact.com .. 1751277.pdf</description>
 <pad name="3" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
 <pad name="4" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
 <pad name="5" x="5.08" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<text x="-6.985" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-6.985" y="-2.54" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="8.255" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-5.461" y1="-1.931" x2="-4.699" y2="-0.915" layer="21"/>
 <rectangle x1="-2.921" y1="-1.931" x2="-2.159" y2="-0.915" layer="21"/>
