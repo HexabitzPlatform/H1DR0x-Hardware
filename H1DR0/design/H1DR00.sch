@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1659,8 +1659,17 @@ In this library the device names are the same as the pin names of the symbols, t
 </part>
 <part name="SUPPLY16" library="supply2" deviceset="VDD" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC2" library="Hexabitz" deviceset="MAX3232*" device="SE" package3d_urn="urn:adsk.eagle:package:821/2" technology="C"/>
-<part name="JP1" library="Hexabitz" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2"/>
+<part name="IC2" library="Hexabitz" deviceset="MAX3232*" device="SE" package3d_urn="urn:adsk.eagle:package:821/2" technology="C">
+<attribute name="DESCRIPTION" value="MAX3232 Series 235 kbps 5.5 V Surface Mount RS-232 Transceiver - SOIC-16"/>
+<attribute name="MFN" value="Maxim Integrated"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/max3232cse%2B-maxim+integrated-39430845?r=sp"/>
+</part>
+<part name="JP1" library="Hexabitz" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2">
+<attribute name="DESCRIPTION" value="Conn Header R/a 5POS 2.54MM MALE"/>
+<attribute name="MFN" value="Sullins"/>
+<attribute name="MPN" value="PEC05SBAN"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/pec05sban-sullins-264498?r=sp"/>
+</part>
 <part name="SUPPLY17" library="supply2" deviceset="VDD" device=""/>
 <part name="C16" library="Hexabitz" deviceset="C-0603" device="" value="100nF">
 <attribute name="CAPACITANCE" value="100nF"/>
@@ -4072,7 +4081,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="FB1" gate="G$1" x="151.13" y="54.61" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.86" y="53.34" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="156.21" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R1" gate="G$1" x="110.49" y="157.48" smashed="yes">
 <attribute name="NAME" x="106.68" y="158.9786" size="1.778" layer="95"/>
@@ -13074,10 +13082,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="IC2" gate="G$1" x="137.16" y="115.57" smashed="yes">
 <attribute name="NAME" x="127" y="131.445" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127" y="95.25" size="1.778" layer="96"/>
+<attribute name="OCTOPART_URL" x="137.16" y="115.57" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="137.16" y="115.57" size="1.778" layer="96" display="off"/>
+<attribute name="MFN" x="137.16" y="115.57" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP1" gate="A" x="39.37" y="53.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="45.72" y="61.595" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="45.72" y="43.18" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DESCRIPTION" x="39.37" y="53.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFN" x="39.37" y="53.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="39.37" y="53.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OCTOPART_URL" x="39.37" y="53.34" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SUPPLY17" gate="G$1" x="185.42" y="133.35" smashed="yes">
 <attribute name="VALUE" x="188.595" y="137.795" size="1.778" layer="96" rot="R180"/>
