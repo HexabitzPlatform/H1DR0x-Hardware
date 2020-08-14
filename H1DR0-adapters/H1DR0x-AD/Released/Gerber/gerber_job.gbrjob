@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-05-28T01:31:22Z",
+        "CreationDate": "2020-08-14T04:16:37Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "H1DR0x-AD"
         },
-        "Owner": "Amir Tabbakh <amir.tabbakh.m.e@gmail.com>",
+        "Owner": "Asaad Kaadan <asaad@hexabitz.com>",
         "Size": {
             "X": 34.64,
             "Y": 30
